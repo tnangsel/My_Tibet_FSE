@@ -1,0 +1,51 @@
+/*
+Theme Name: Tibet
+Theme URI: https://example.com/tibet
+Author: Tenzin Nangsel
+Author URI: https://example.com
+Description: A custom FSE block theme for WordPress with role-based user management.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: tibet
+*/
+
+/* Add any custom styles below */
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #fefced;
+    color: #000000;
+  }
+  
+  a {
+    color: #001f3f;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .wp-block-button__link {
+    background-color: #f8e40c;
+    color: #000;
+    padding: 0.75em 1.5em;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .wp-block-button__link:hover {
+    background-color: #e5cf00;
+  }
+  
+  .wp-block-search__button {
+    background: transparent;
+    color: #000;
+    border: 2px solid #000;
+    padding: 0.5em 1em;
+  }
+
+  

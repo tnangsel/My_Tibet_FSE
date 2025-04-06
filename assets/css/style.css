@@ -1,0 +1,93 @@
+
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.site-header, .site-footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #0073aa;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+}
+
+.content-area {
+    width: 70%;
+    float: left;
+}
+
+.sidebar-area {
+    width: 30%;
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.site-sidebar {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.site-sidebar h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.site-sidebar .widget {
+    margin-bottom: 20px;
+}
+
+.site-sidebar .widget h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.site-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.site-sidebar ul li {
+    margin-bottom: 5px;
+}
+
+.site-sidebar ul li a {
+    text-decoration: none;
+    color: #0073aa;
+}
+
+.site-sidebar ul li a:hover {
+    text-decoration: underline;
+}
